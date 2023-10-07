@@ -12,8 +12,8 @@ node_modules/
 yarn-error.log*
 *.tsbuildinfo
 **/coverage
-.yarn
-!.yarn/releases
+.yarn/cache
+.yarn/install-state.gz
 
 # build 関連
 **/out
