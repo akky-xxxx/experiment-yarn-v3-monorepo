@@ -8,6 +8,7 @@
     "fix:pack": "fixpack",
     "lint": "run-p \"lint:*\" -c",
     "lint:pack": "fixpack --dryRun",
+    "prepare": "panda codegen",
     "storybook": "storybook dev -p 2010"
   },
   "dependencies": {
