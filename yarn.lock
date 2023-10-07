@@ -965,6 +965,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"site-b@workspace:packages/site-b":
+  version: 0.0.0-use.local
+  resolution: "site-b@workspace:packages/site-b"
+  languageName: unknown
+  linkType: soft
+
 "spdx-correct@npm:^3.0.0":
   version: 3.2.0
   resolution: "spdx-correct@npm:3.2.0"
