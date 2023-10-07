@@ -145,6 +145,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-components@workspace:packages/common-components":
+  version: 0.0.0-use.local
+  resolution: "common-components@workspace:packages/common-components"
+  languageName: unknown
+  linkType: soft
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
