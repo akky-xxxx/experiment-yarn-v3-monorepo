@@ -959,6 +959,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"site-a@workspace:packages/site-a":
+  version: 0.0.0-use.local
+  resolution: "site-a@workspace:packages/site-a"
+  languageName: unknown
+  linkType: soft
+
 "spdx-correct@npm:^3.0.0":
   version: 3.2.0
   resolution: "spdx-correct@npm:3.2.0"
