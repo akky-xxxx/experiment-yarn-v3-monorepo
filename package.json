@@ -1,0 +1,16 @@
+{
+  "name": "experiment-yarn-v3-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "akky-xxxx <114.s.aki@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "20.8.0",
+    "npm": "⚠️️  【yarn】 を使ってください",
+    "yarn": "3.6.4"
+  },
+  "packageManager": "yarn@3.6.4",
+  "workspaces": [
+    "packages/*"
+  ]
+}
