@@ -3,9 +3,22 @@
   "version": "1.0.0",
   "packageManager": "yarn@3.6.4",
   "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 4000",
     "fix": "run-p \"fix:*\" -c",
     "fix:pack": "fixpack",
     "lint": "run-p \"lint:*\" -c",
-    "lint:pack": "fixpack --dryRun"
+    "lint:pack": "fixpack --dryRun",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.3",
+    "@types/react": "18.2.25",
+    "@types/react-dom": "18.2.11"
   }
 }
