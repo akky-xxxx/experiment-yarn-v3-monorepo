@@ -17,7 +17,8 @@
     "lint:pack": "fixpack --dryRun",
     "ws-dev": "yarn workspaces foreach -vpi run dev",
     "ws-fix": "yarn workspaces foreach -vpi run fix",
-    "ws-lint": "yarn workspaces foreach -vpi run lint"
+    "ws-lint": "yarn workspaces foreach -vpi run lint",
+    "ws-storybook": "yarn workspaces foreach -vpi run storybook"
   },
   "devDependencies": {
     "eslint": "8.51.0",
