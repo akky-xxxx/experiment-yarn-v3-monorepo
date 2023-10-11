@@ -1,11 +1,17 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import { css } from "../libs/styled-system/css"
+
+const paragraphStyle = css({
+  color: "yellow"
+})
+
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
+        <p className={paragraphStyle}>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
