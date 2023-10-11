@@ -2,6 +2,7 @@
   "name": "@experiment-yarn-v3-monorepo/common-components",
   "version": "1.0.0",
   "packageManager": "yarn@3.6.4",
+  "main": "./src/components/index.ts",
   "scripts": {
     "build-storybook": "storybook build",
     "fix": "run-p \"fix:*\" -c",
