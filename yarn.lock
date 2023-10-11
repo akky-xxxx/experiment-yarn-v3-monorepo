@@ -2204,6 +2204,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@experiment-yarn-v3-monorepo/common-components@workspace:^, @experiment-yarn-v3-monorepo/common-components@workspace:packages/common-components":
+  version: 0.0.0-use.local
+  resolution: "@experiment-yarn-v3-monorepo/common-components@workspace:packages/common-components"
+  dependencies:
+    "@pandacss/dev": 0.15.5
+    "@storybook/addon-essentials": ^7.4.6
+    "@storybook/addon-interactions": ^7.4.6
+    "@storybook/addon-links": ^7.4.6
+    "@storybook/addon-onboarding": ^1.0.8
+    "@storybook/blocks": ^7.4.6
+    "@storybook/react": ^7.4.6
+    "@storybook/react-vite": ^7.4.6
+    "@storybook/testing-library": ^0.2.2
+    "@types/react": 18.2.25
+    fixpack: 4.0.0
+    npm-run-all: 4.1.5
+    prop-types: ^15.8.1
+    react: 18.2.0
+    react-dom: ^18.2.0
+    storybook: ^7.4.6
+  languageName: unknown
+  linkType: soft
+
 "@fal-works/esbuild-plugin-global-externals@npm:^2.1.2":
   version: 2.1.2
   resolution: "@fal-works/esbuild-plugin-global-externals@npm:2.1.2"
@@ -8065,29 +8088,6 @@ __metadata:
   checksum: 1d2e4186067083d8cc413f00fc2908225f04ae4e19417ded67faa6494fb313c4fcd5b28a52326d1a62b466e2b3a4325e92c31133c5fee628cdf8856b3a57c3d7
   languageName: node
   linkType: hard
-
-"common-components@workspace:packages/common-components":
-  version: 0.0.0-use.local
-  resolution: "common-components@workspace:packages/common-components"
-  dependencies:
-    "@pandacss/dev": 0.15.5
-    "@storybook/addon-essentials": ^7.4.6
-    "@storybook/addon-interactions": ^7.4.6
-    "@storybook/addon-links": ^7.4.6
-    "@storybook/addon-onboarding": ^1.0.8
-    "@storybook/blocks": ^7.4.6
-    "@storybook/react": ^7.4.6
-    "@storybook/react-vite": ^7.4.6
-    "@storybook/testing-library": ^0.2.2
-    "@types/react": 18.2.25
-    fixpack: 4.0.0
-    npm-run-all: 4.1.5
-    prop-types: ^15.8.1
-    react: 18.2.0
-    react-dom: ^18.2.0
-    storybook: ^7.4.6
-  languageName: unknown
-  linkType: soft
 
 "common-path-prefix@npm:^3.0.0":
   version: 3.0.0
@@ -16016,6 +16016,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "site-a@workspace:packages/site-a"
   dependencies:
+    "@experiment-yarn-v3-monorepo/common-components": "workspace:^"
     "@pandacss/dev": 0.15.5
     "@storybook/addon-essentials": ^7.4.6
     "@storybook/addon-interactions": ^7.4.6
@@ -16042,6 +16043,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "site-b@workspace:packages/site-b"
   dependencies:
+    "@experiment-yarn-v3-monorepo/common-components": "workspace:^"
     "@pandacss/dev": 0.15.5
     "@storybook/addon-essentials": ^7.4.6
     "@storybook/addon-interactions": ^7.4.6
