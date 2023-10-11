@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-import { css } from "../libs/styled-system/css"
+import { css } from "../../styled-system/css"
 
 const paragraphStyle = css({
   color: "yellow"
