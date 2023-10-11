@@ -15,6 +15,7 @@
     "fix:pack": "fixpack",
     "lint": "run-p \"lint:*\" -c",
     "lint:pack": "fixpack --dryRun",
+    "prepare": "yarn workspaces foreach -vpi run prepare",
     "ws-dev": "yarn workspaces foreach -vpi run dev",
     "ws-fix": "yarn workspaces foreach -vpi run fix",
     "ws-lint": "yarn workspaces foreach -vpi run lint",
