@@ -16038,6 +16038,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "site-b@workspace:packages/site-b"
   dependencies:
+    "@pandacss/dev": 0.15.5
     "@storybook/addon-essentials": ^7.4.6
     "@storybook/addon-interactions": ^7.4.6
     "@storybook/addon-links": ^7.4.6
