@@ -8080,6 +8080,8 @@ __metadata:
     "@storybook/react-vite": ^7.4.6
     "@storybook/testing-library": ^0.2.2
     "@types/react": 18.2.25
+    fixpack: 4.0.0
+    npm-run-all: 4.1.5
     prop-types: ^15.8.1
     react: 18.2.0
     react-dom: ^18.2.0
@@ -16027,7 +16029,9 @@ __metadata:
     "@types/react": 18.2.25
     "@types/react-dom": 18.2.11
     eslint-plugin-storybook: 0.6.14
+    fixpack: 4.0.0
     next: 13.5.4
+    npm-run-all: 4.1.5
     react: 18.2.0
     react-dom: 18.2.0
     storybook: ^7.4.6
@@ -16051,7 +16055,9 @@ __metadata:
     "@types/react": 18.2.25
     "@types/react-dom": 18.2.11
     eslint-plugin-storybook: 0.6.14
+    fixpack: 4.0.0
     next: 13.5.4
+    npm-run-all: 4.1.5
     react: 18.2.0
     react-dom: 18.2.0
     storybook: ^7.4.6
