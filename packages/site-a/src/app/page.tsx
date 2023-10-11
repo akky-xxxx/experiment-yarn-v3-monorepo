@@ -2,7 +2,7 @@ import { Button } from "@experiment-yarn-v3-monorepo/common-components/src/compo
 import Image from 'next/image'
 import styles from './page.module.css'
 
-import { css } from "../../styled-system/css"
+import { css } from "@panda/css"
 
 const paragraphStyle = css({
   color: "red"
