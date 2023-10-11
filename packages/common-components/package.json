@@ -1,5 +1,5 @@
 {
-  "name": "common-components",
+  "name": "@experiment-yarn-v3-monorepo/common-components",
   "version": "1.0.0",
   "packageManager": "yarn@3.6.4",
   "scripts": {
