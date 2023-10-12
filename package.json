@@ -16,9 +16,11 @@
     "lint": "run-p \"lint:*\" -c",
     "lint:pack": "fixpack --dryRun",
     "prepare": "yarn workspaces foreach -vpi run prepare",
+    "ws-build": "yarn workspaces foreach -vpi run build",
     "ws-dev": "yarn workspaces foreach -vpi run dev",
     "ws-fix": "yarn workspaces foreach -vpi run fix",
     "ws-lint": "yarn workspaces foreach -vpi run lint",
+    "ws-start": "yarn workspaces foreach -vpi run start",
     "ws-storybook": "yarn workspaces foreach -vpi run storybook"
   },
   "devDependencies": {
