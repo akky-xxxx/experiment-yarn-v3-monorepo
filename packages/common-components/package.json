@@ -2,9 +2,11 @@
   "name": "@experiment-yarn-v3-monorepo/common-components",
   "version": "1.0.0",
   "packageManager": "yarn@3.6.4",
-  "main": "./src/components/index.ts",
+  "main": "out/components/index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "build-storybook": "storybook build",
+    "dev": "tsc -p tsconfig.build.json -w",
     "fix": "run-p \"fix:*\" -c",
     "fix:pack": "fixpack",
     "lint": "run-p \"lint:*\" -c",
