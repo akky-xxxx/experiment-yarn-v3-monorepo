@@ -2224,6 +2224,7 @@ __metadata:
     react: 18.2.0
     react-dom: ^18.2.0
     storybook: ^7.4.6
+    typescript: 5.2.2
   languageName: unknown
   linkType: soft
 
