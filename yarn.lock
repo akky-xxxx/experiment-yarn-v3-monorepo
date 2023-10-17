@@ -4885,6 +4885,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/strictest@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@tsconfig/strictest@npm:2.0.2"
+  checksum: 5409233288d872a2d79aca5eb65d3da681c6e0baa9ee58744adceda834fececdaa8265869793cfd5a80f4c887e3296b4d13309ef5bffbf7c8272071f00b60ba7
+  languageName: node
+  linkType: hard
+
 "@types/aria-query@npm:^5.0.1":
   version: 5.0.2
   resolution: "@types/aria-query@npm:5.0.2"
@@ -9829,6 +9836,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "experiment-yarn-v3-monorepo@workspace:."
   dependencies:
+    "@tsconfig/strictest": 2.0.2
     eslint: 8.51.0
     eslint-config-next: 13.5.4
     fixpack: 4.0.0
