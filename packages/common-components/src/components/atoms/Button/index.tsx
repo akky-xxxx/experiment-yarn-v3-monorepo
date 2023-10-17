@@ -1,4 +1,4 @@
-import { css } from "../../../../styled-system/css"
+import { css } from "@panda/css"
 
 import type { FcWithChildren } from "../../../types/FcWithChildren"
 import type { PropsWithoutClassName } from "../../../types/PropsWithoutClassName"
