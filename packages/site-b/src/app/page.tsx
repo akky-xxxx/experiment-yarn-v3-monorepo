@@ -1,7 +1,8 @@
 import { Button, Counter } from "@experiment-yarn-v3-monorepo/common-components"
-import Image from 'next/image'
+import Image from "next/image"
 
 import { css } from "@panda/css"
+
 
 const paragraphStyle = css({
   color: "blue"
@@ -22,11 +23,11 @@ export default function Home() {
 
       <div>
         <Image
-          src="/vercel.svg"
-          alt="Vercel Logo"
-          width={100}
-          height={24}
           priority
+          alt="Vercel Logo"
+          height={24}
+          src="/vercel.svg"
+          width={100}
         />
       </div>
     </main>

@@ -1,6 +1,10 @@
 "use client"
 
+// サンプルのため
+/* eslint-disable @typescript-eslint/no-magic-numbers */
+
 import { useState } from "react"
+
 import { css } from "@panda/css"
 
 import { Button } from "../../atoms"
