@@ -3,13 +3,15 @@ import Image from "next/image"
 
 import { css } from "@panda/css"
 
+import type {FC} from "react"
+
+
 
 const paragraphStyle = css({
   color: "red"
 })
 
-export default function Home() {
-  return (
+const Home: FC = () => (
     <main>
       <div>
         <Button>button component for site-a</Button>
@@ -31,5 +33,6 @@ export default function Home() {
         />
       </div>
     </main>
-  )
-}
+)
+
+export default Home
