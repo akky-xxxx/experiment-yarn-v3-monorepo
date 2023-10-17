@@ -1,4 +1,4 @@
-import { Button } from "@experiment-yarn-v3-monorepo/common-components/src/components"
+import { Button, Counter } from "@experiment-yarn-v3-monorepo/common-components"
 import Image from 'next/image'
 import styles from './page.module.css'
 
@@ -48,6 +48,10 @@ export default function Home() {
 
       <div>
         <Button>button component for site-b</Button>
+      </div>
+
+      <div>
+        <Counter />
       </div>
 
       <div className={styles.grid}>
