@@ -12,8 +12,10 @@
   "main": "index.js",
   "scripts": {
     "fix": "run-p \"fix:*\" -c",
+    "fix:config": "prettier \"./config/**/*\" --write",
     "fix:pack": "fixpack",
     "lint": "run-p \"lint:*\" -c",
+    "lint:config": "prettier \"./config/**/*\" --check",
     "lint:pack": "fixpack --dryRun",
     "prepare": "yarn workspaces foreach -vpi run prepare",
     "ws-build": "yarn workspaces foreach -vpi run build",
