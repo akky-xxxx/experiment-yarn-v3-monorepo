@@ -6,7 +6,6 @@
     "jsx": "react-jsx",
     "noEmit": false,
     "outDir": "./out",
-    "rootDir": "./src",
-    "target": "esnext"
+    "rootDir": "./src"
   }
 }

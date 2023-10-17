@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/strictest",
+
+  "compilerOptions": {
+    "allowJs": true,
+    "incremental": true,
+    "module": "esnext",
+    "noEmit": true,
+    "resolveJsonModule": true
+  },
+}
+
