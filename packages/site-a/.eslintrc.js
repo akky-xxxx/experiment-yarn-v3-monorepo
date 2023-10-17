@@ -1,13 +1,7 @@
 module.exports = {
-  extends: [
-    "strict-check/react-max",
-    "../../config/eslint/import",
-  ],
+  extends: ["strict-check/react-max", "../../config/eslint/import"],
 
-  ignorePatterns: [
-    "**/.next/**",
-    "**/styled-system/**",
-  ],
+  ignorePatterns: ["**/.next/**", "**/styled-system/**"],
   parserOptions: {
     project: ["./tsconfig.json"],
     tsconfigRootDir: __dirname,

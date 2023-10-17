@@ -5,8 +5,10 @@ module.exports = {
     {
       files: ["**/app/**/{page,layout}.tsx"],
       rules: Object.fromEntries(
-        ["import/no-default-export"]
-          .map((ruleName) => [ruleName, Severity.OFF]),
+        ["import/no-default-export"].map((ruleName) => [
+          ruleName,
+          Severity.OFF,
+        ]),
       ),
     },
   ],

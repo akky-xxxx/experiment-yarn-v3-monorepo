@@ -1,4 +1,3 @@
-
 import { Counter } from "./index"
 
 import type { Meta, StoryObj } from "@storybook/react"
@@ -8,7 +7,7 @@ type CounterType = typeof Counter
 type CounterProps = ComponentProps<CounterType>
 
 const meta: Meta<CounterProps> = {
-  component: Counter
+  component: Counter,
 }
 
 export default meta

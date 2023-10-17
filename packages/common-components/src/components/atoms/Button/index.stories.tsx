@@ -1,4 +1,3 @@
-
 import { Button } from "./index"
 
 import type { Meta, StoryObj } from "@storybook/react"
@@ -11,8 +10,8 @@ const meta: Meta<ButtonProps> = {
   component: Button,
 
   args: {
-    children: "children"
-  }
+    children: "children",
+  },
 }
 
 export default meta

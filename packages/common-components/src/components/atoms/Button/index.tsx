@@ -23,5 +23,9 @@ type Props = PropsWithoutClassName<ButtonHTMLAttributes<HTMLButtonElement>>
 export const Button: FcWithChildren<Props> = (props) => {
   const { children, ...restProps } = props
 
-  return <button type="button" {...restProps} className={buttonStyle}>{children}</button>
+  return (
+    <button type="button" {...restProps} className={buttonStyle}>
+      {children}
+    </button>
+  )
 }

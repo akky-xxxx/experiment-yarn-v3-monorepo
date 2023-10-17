@@ -22,9 +22,13 @@ export const Counter: FC = () => {
 
   return (
     <div className={rootStyle}>
-      <Button type="button" onClick={handleClickDecrement}>-</Button>
+      <Button type="button" onClick={handleClickDecrement}>
+        -
+      </Button>
       <div className={countStyle}>{count}</div>
-      <Button type="button" onClick={handleClickIncrement}>+</Button>
+      <Button type="button" onClick={handleClickIncrement}>
+        +
+      </Button>
     </div>
   )
 }
