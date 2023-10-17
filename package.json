@@ -21,7 +21,8 @@
     "ws-fix": "yarn workspaces foreach -vpi run fix",
     "ws-lint": "yarn workspaces foreach -vpi run lint",
     "ws-start": "yarn workspaces foreach -vpi run start",
-    "ws-storybook": "yarn workspaces foreach -vpi run storybook"
+    "ws-storybook": "yarn workspaces foreach -vpi run storybook",
+    "ws-type-check": "yarn workspaces foreach -vpi run type-check"
   },
   "devDependencies": {
     "eslint": "8.51.0",

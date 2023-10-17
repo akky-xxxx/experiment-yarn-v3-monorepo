@@ -12,7 +12,8 @@
     "lint:pack": "fixpack --dryRun",
     "prepare": "panda codegen",
     "start": "next start -p 4000",
-    "storybook": "storybook dev -p 4010"
+    "storybook": "storybook dev -p 4010",
+    "type-check": "tsc"
   },
   "dependencies": {
     "@experiment-yarn-v3-monorepo/common-components": "workspace:^",
