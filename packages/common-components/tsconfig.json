@@ -14,6 +14,9 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "paths": {
+      "@panda/*": ["./styled-system/*"],
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
