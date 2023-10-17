@@ -11,6 +11,7 @@ const buttonStyle = css({
   cursor: "pointer",
   padding: "5px",
   transition: "background-color ease-in 0.3s, border ease-in 0.3s",
+
   "&:hover": {
     backgroundColor: "#99f",
     borderColor: "#99f",
@@ -22,5 +23,5 @@ type Props = PropsWithoutClassName<ButtonHTMLAttributes<HTMLButtonElement>>
 export const Button: FcWithChildren<Props> = (props) => {
   const { children, ...restProps } = props
 
-  return <button {...restProps} className={buttonStyle}>{children}</button>
+  return <button type="button" {...restProps} className={buttonStyle}>{children}</button>
 }

@@ -13,8 +13,12 @@ import type { FC } from "react"
 
 export const Counter: FC = () => {
   const [count, setCount] = useState(0)
-  const handleClickDecrement = () => setCount((current) => current - 1)
-  const handleClickIncrement = () => setCount((current) => current + 1)
+  const handleClickDecrement = () => {
+    setCount((current) => current - 1)
+  }
+  const handleClickIncrement = () => {
+    setCount((current) => current + 1)
+  }
 
   return (
     <div className={rootStyle}>
