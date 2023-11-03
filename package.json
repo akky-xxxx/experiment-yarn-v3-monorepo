@@ -4,7 +4,7 @@
   "author": "akky-xxxx <114.s.aki@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "20.8.0",
+    "node": "20.9.0",
     "npm": "⚠️️  【yarn】 を使ってください",
     "yarn": "4.0.1"
   },
