@@ -16,4 +16,13 @@ module.exports = {
       typescript: [],
     },
   },
+  overrides: [
+    {
+      files: "src/app/**/page.tsx",
+      rules: {
+        // no-restricted-exports と競合するため
+        "unicorn/prefer-export-from": 0,
+      },
+    },
+  ],
 }
