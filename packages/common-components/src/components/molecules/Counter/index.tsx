@@ -1,5 +1,3 @@
-"use client"
-
 // サンプルのため
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 
