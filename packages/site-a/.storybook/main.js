@@ -1,4 +1,5 @@
-import { join, dirname } from "path"
+import { readFileSync } from "fs"
+import { join, dirname, resolve } from "path"
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -23,6 +24,22 @@ const config = {
   },
   docs: {
     autodocs: "tag",
+  },
+  webpackFinal: (config) => {
+    const paths = JSON.parse(readFileSync("./tsconfig.json").toString())
+      .compilerOptions.paths
+    const applyPaths = Object.fromEntries(
+      Object.entries(paths).map(([key, values]) => [
+        key.replace("/*", ""),
+        resolve(__dirname, "../", values[0].replace("/*", "")),
+      ]),
+    )
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      ...applyPaths,
+    }
+
+    return config
   },
 }
 export default config
