@@ -22,7 +22,7 @@ module.exports = {
       rules: {
         // no-restricted-exports と競合するため
         "unicorn/prefer-export-from": 0,
-      }
+      },
     },
   ],
 }
