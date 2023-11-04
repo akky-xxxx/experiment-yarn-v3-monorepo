@@ -3,6 +3,8 @@ import Image from "next/image"
 
 import { css } from "@panda/css"
 
+import { User } from "../../organisms/User"
+
 import type { FC } from "react"
 
 const paragraphStyle = css({
@@ -18,6 +20,8 @@ export const Home: FC = () => (
     <div>
       <Counter />
     </div>
+
+    <User />
 
     <p className={paragraphStyle}>demo for panda css</p>
 
