@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["strict-check/react-max", "../../config/eslint/import"],
+  extends: [
+    "strict-check/react-max",
+    "../../config/eslint/import",
+    "../../config/eslint/strictDependencies",
+  ],
 
   ignorePatterns: ["**/.next/**", "**/styled-system/**"],
   parserOptions: {
