@@ -2241,9 +2241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "@eslint/eslintrc@npm:2.1.2"
+"@eslint/eslintrc@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@eslint/eslintrc@npm:2.1.3"
   dependencies:
     ajv: "npm:^6.12.4"
     debug: "npm:^4.3.2"
@@ -2254,14 +2254,14 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     minimatch: "npm:^3.1.2"
     strip-json-comments: "npm:^3.1.1"
-  checksum: fa25638f2666cac6810f98ee7d0f4b912f191806467c1b40d72bac759fffef0b3357f12a1869817286837b258e4de3517e0c7408520e156ca860fc53a1fbaed9
+  checksum: 77b70a89232fe702c2f765b5b92970f5e4224b55363b923238b996c66fcd991504f40d3663c0543ae17d6c5049ab9b07ab90b65d7601e6f25e8bcd4caf69ac75
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.52.0":
-  version: 8.52.0
-  resolution: "@eslint/js@npm:8.52.0"
-  checksum: 86beff213d0ae4ced203a922b74e2cc4d767d109e7815f985bf648946ba072198977102e32afc9fa04f7825a6de83a831874f6b6675ba0c1d0743ade2dc2d53d
+"@eslint/js@npm:8.53.0":
+  version: 8.53.0
+  resolution: "@eslint/js@npm:8.53.0"
+  checksum: a372d55aa2bbe0d9399acc8de3c892dcfe507fd914d29fde6826ae54a13452619be626aa7eb70b1ec4d4da5302b6ed8e8ac9bf1f830003f15c0ad56c30b4f520
   languageName: node
   linkType: hard
 
@@ -2270,7 +2270,7 @@ __metadata:
   resolution: "@experiment-yarn-v3-monorepo/common-components@workspace:packages/common-components"
   dependencies:
     "@pandacss/dev": "npm:0.17.5"
-    eslint: "npm:8.52.0"
+    eslint: "npm:8.53.0"
     fixpack: "npm:4.0.0"
     jest: "npm:29.7.0"
     markuplint: "npm:3.14.0"
@@ -2286,7 +2286,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types"
   dependencies:
-    eslint: "npm:8.52.0"
+    eslint: "npm:8.53.0"
     fixpack: "npm:4.0.0"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.0.3"
@@ -11014,13 +11014,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-strict-check@npm:0.0.15":
-  version: 0.0.15
-  resolution: "eslint-plugin-strict-check@npm:0.0.15"
+"eslint-plugin-strict-check@npm:0.0.16":
+  version: 0.0.16
+  resolution: "eslint-plugin-strict-check@npm:0.0.16"
   dependencies:
-    remeda: "npm:1.27.0"
-    zod: "npm:3.22.2"
-  checksum: 28cb2e30e64cb9ee30051fab2d0ca7d97c56040c98d566179f72047b5a768eb6503eec9dc6eab7084adb45cadf21d8b9b23f87ed8691bcfe24e391033550b251
+    remeda: "npm:1.29.0"
+    zod: "npm:3.22.4"
+  checksum: 645f0194af3b7ff9f3c9f0dae212a49b9161e040b66e7574a82449d9dcf4f03f1712d09583dbcb42450a5eca001f3fb9f1d87f718849b72eeb528ef7a867131c
   languageName: node
   linkType: hard
 
@@ -11087,14 +11087,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.52.0":
-  version: 8.52.0
-  resolution: "eslint@npm:8.52.0"
+"eslint@npm:8.53.0":
+  version: 8.53.0
+  resolution: "eslint@npm:8.53.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.6.1"
-    "@eslint/eslintrc": "npm:^2.1.2"
-    "@eslint/js": "npm:8.52.0"
+    "@eslint/eslintrc": "npm:^2.1.3"
+    "@eslint/js": "npm:8.53.0"
     "@humanwhocodes/config-array": "npm:^0.11.13"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@nodelib/fs.walk": "npm:^1.2.8"
@@ -11131,7 +11131,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: 01784ab15351d749bc95446039ed7acd5124f7cc84acdbf98c7199272eae06212a8f3ea4a9b47e7cc54ab17ca094c3a664bbfc3002c7de27936220e278b5028a
+  checksum: e305a71ce2b9a8631b293266fe53e346c76f28bc8d004af33f10e537cf133db1fb87af3599376e70ed6e0f89a78be10c4f08ddd0c1c9c0c497cd143b4a270420
   languageName: node
   linkType: hard
 
@@ -11398,14 +11398,14 @@ __metadata:
     "@types/react": "npm:18.2.34"
     "@types/react-dom": "npm:18.2.14"
     "@typescript-eslint/eslint-plugin": "npm:6.9.1"
-    eslint: "npm:8.52.0"
+    eslint: "npm:8.53.0"
     eslint-config-airbnb: "npm:19.0.4"
     eslint-config-next: "npm:14.0.1"
     eslint-config-prettier: "npm:9.0.0"
     eslint-config-strict-check: "npm:0.0.18"
     eslint-plugin-jest: "npm:27.6.0"
     eslint-plugin-storybook: "npm:0.6.15"
-    eslint-plugin-strict-check: "npm:0.0.15"
+    eslint-plugin-strict-check: "npm:0.0.16"
     eslint-plugin-strict-dependencies: "npm:1.2.3"
     eslint-plugin-unicorn: "npm:49.0.0"
     fixpack: "npm:4.0.0"
@@ -17925,10 +17925,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remeda@npm:1.27.0":
-  version: 1.27.0
-  resolution: "remeda@npm:1.27.0"
-  checksum: 698f2945e1f77ef7705318805bce97f0131625b4e443298a4339473ebba8257663d18b5f5df32fb808c8affb41fb090d3adf7b6770bd5ad8785de39ba97b24bc
+"remeda@npm:1.29.0":
+  version: 1.29.0
+  resolution: "remeda@npm:1.29.0"
+  checksum: a6e110a39021f7823d9d0bb88448bab6bf68b0c4ef6d5c9f3e14c5b53870ccb8a7029e93abe1f1ad81cd18a89b2ce06f79c8613c3d03731af63c9ef1ba3bee3e
   languageName: node
   linkType: hard
 
@@ -18634,7 +18634,7 @@ __metadata:
   dependencies:
     "@experiment-yarn-v3-monorepo/common-components": "workspace:^"
     "@pandacss/dev": "npm:0.17.5"
-    eslint: "npm:8.52.0"
+    eslint: "npm:8.53.0"
     eslint-plugin-storybook: "npm:0.6.15"
     fixpack: "npm:4.0.0"
     jest: "npm:29.7.0"
@@ -18655,7 +18655,7 @@ __metadata:
   dependencies:
     "@experiment-yarn-v3-monorepo/common-components": "workspace:^"
     "@pandacss/dev": "npm:0.17.5"
-    eslint: "npm:8.52.0"
+    eslint: "npm:8.53.0"
     eslint-plugin-storybook: "npm:0.6.15"
     fixpack: "npm:4.0.0"
     jest: "npm:29.7.0"
@@ -20974,14 +20974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.22.2":
-  version: 3.22.2
-  resolution: "zod@npm:3.22.2"
-  checksum: bb39da97974b78c975bd1cbeb1a04ddc8ce69ac3100151e6ad1ee4763a8b3322fdbbcd98cd4b6bc2b40fb4d5bb86920f7c33515f430ca6aa439ce524a9c315c2
-  languageName: node
-  linkType: hard
-
-"zod@npm:^3.20.6":
+"zod@npm:3.22.4, zod@npm:^3.20.6":
   version: 3.22.4
   resolution: "zod@npm:3.22.4"
   checksum: 73622ca36a916f785cf528fe612a884b3e0f183dbe6b33365a7d0fc92abdbedf7804c5e2bd8df0a278e1472106d46674281397a3dd800fa9031dc3429758c6ac
