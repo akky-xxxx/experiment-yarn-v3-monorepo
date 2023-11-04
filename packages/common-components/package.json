@@ -1,7 +1,6 @@
 {
   "name": "@experiment-yarn-v3-monorepo/common-components",
   "version": "0.0.1",
-  "packageManager": "yarn@3.6.4",
   "main": "out/components/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
