@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "0.17.5",
+    "cspell": "7.3.8",
     "eslint": "8.53.0",
     "eslint-plugin-storybook": "0.6.15",
     "fixpack": "4.0.0",
