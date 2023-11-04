@@ -1,6 +1,6 @@
 {
   "name": "site-b",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "packageManager": "yarn@3.6.4",
   "scripts": {
     "build": "next build",
