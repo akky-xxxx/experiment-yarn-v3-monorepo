@@ -2725,7 +2725,6 @@ __metadata:
     markuplint: "npm:3.14.0"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.0.3"
-    prop-types: "npm:15.8.1"
     react: "npm:18.2.0"
     storybook: "npm:7.5.2"
     typescript: "npm:5.2.2"
@@ -17887,7 +17886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.8.1, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
