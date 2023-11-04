@@ -11,6 +11,8 @@
   "packageManager": "yarn@4.0.1",
   "main": "index.js",
   "scripts": {
+    "check-all": "npm-run-all -s fix -p lint -c",
+    "check-code": "npm-run-all -p lint -c",
     "fix": "run-p \"fix:*\" -c",
     "fix:config": "prettier \"./config/**/*\" \"./*.ts\" --write",
     "fix:pack": "fixpack",
@@ -19,6 +21,8 @@
     "lint:pack": "fixpack --dryRun",
     "prepare": "yarn workspaces foreach -A -vpi run prepare",
     "ws-build": "yarn workspaces foreach -A -vpi run build",
+    "ws-check-all": "yarn workspaces foreach -A -vpi run check-all",
+    "ws-check-code": "yarn workspaces foreach -A -vpi run check-code",
     "ws-dev": "yarn workspaces foreach -A -vpi run dev",
     "ws-fix": "yarn workspaces foreach -A -vpi run fix",
     "ws-lint": "yarn workspaces foreach -A -vpi run lint",

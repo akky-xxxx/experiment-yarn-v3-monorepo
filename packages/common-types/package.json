@@ -4,6 +4,8 @@
   "main": "out/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
+    "check-all": "npm-run-all -s fix -p lint -c",
+    "check-code": "npm-run-all -p lint type-check -c",
     "dev": "tsc -p tsconfig.build.json -w",
     "fix": "run-p \"fix:*\" -c",
     "fix-ts-by-eslint": "eslint \"./src/**/*.ts\" --fix --max-warnings 0 --cache",
