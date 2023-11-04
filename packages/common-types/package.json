@@ -1,0 +1,30 @@
+{
+  "name": "@experiment-yarn-v3-monorepo/common-types",
+  "version": "0.0.1",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json -w",
+    "fix": "run-p \"fix:*\" -c",
+    "fix-ts-by-eslint": "eslint \"./src/**/*.ts\" --fix --max-warnings 0 --cache",
+    "fix-ts-by-prettier": "prettier \"./src/**/*.ts\" --write",
+    "fix:config": "prettier \"./*.{js,ts}\" --write",
+    "fix:pack": "fixpack",
+    "fix:ts": "run-s fix-ts-by-prettier fix-ts-by-eslint",
+    "lint": "run-p \"lint:*\" -c",
+    "lint-ts-by-eslint": "eslint \"./src/**/*.ts\" --max-warnings 0 --cache",
+    "lint-ts-by-prettier": "prettier \"./src/**/*.ts\" --check",
+    "lint:config": "prettier \"./*.{js,ts}\" --check",
+    "lint:markup": "markuplint \"./src/**/*.ts\" -p",
+    "lint:pack": "fixpack --dryRun",
+    "lint:ts": "run-s lint-ts-by-prettier lint-ts-by-eslint",
+    "type-check": "tsc"
+  },
+  "devDependencies": {
+    "eslint": "8.52.0",
+    "fixpack": "4.0.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  }
+}

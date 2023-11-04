@@ -1,0 +1,12 @@
+{
+  "extends": "../../config/tsconfig/tsconfig.client.json",
+
+  "compilerOptions": {
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

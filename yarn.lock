@@ -2254,6 +2254,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types":
+  version: 0.0.0-use.local
+  resolution: "@experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types"
+  dependencies:
+    eslint: "npm:8.52.0"
+    fixpack: "npm:4.0.0"
+    npm-run-all: "npm:4.1.5"
+    prettier: "npm:3.0.3"
+    typescript: "npm:5.2.2"
+  languageName: unknown
+  linkType: soft
+
 "@fal-works/esbuild-plugin-global-externals@npm:^2.1.2":
   version: 2.1.2
   resolution: "@fal-works/esbuild-plugin-global-externals@npm:2.1.2"
