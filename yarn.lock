@@ -2277,6 +2277,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.0.3"
     prop-types: "npm:15.8.1"
+    react: "npm:18.2.0"
     storybook: "npm:7.5.2"
     typescript: "npm:5.2.2"
   languageName: unknown

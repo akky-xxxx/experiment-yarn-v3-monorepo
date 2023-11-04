@@ -26,6 +26,9 @@
     "storybook": "storybook dev -p 2010",
     "type-check": "tsc"
   },
+  "dependencies": {
+    "react": "18.2.0"
+  },
   "devDependencies": {
     "@pandacss/dev": "0.17.5",
     "eslint": "8.53.0",
