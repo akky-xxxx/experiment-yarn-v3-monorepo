@@ -1,7 +1,10 @@
 {
   "name": "experiment-yarn-v3-monorepo",
   "version": "0.0.1",
+  "description": "experiment yarn monorepo",
   "author": "akky-xxxx <114.s.aki@gmail.com>",
+  "repository": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo.git",
+  "homepage": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo",
   "license": "MIT",
   "engines": {
     "node": "20.9.0",
@@ -72,5 +75,11 @@
   },
   "workspaces": [
     "packages/*"
+  ],
+  "bugs": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo/issues",
+  "keywords": [
+    "Next.js",
+    "monorepo",
+    "yarn"
   ]
 }

@@ -1,6 +1,9 @@
 {
   "name": "@experiment-yarn-v3-monorepo/common-components",
   "version": "0.0.1",
+  "description": "experiment yarn monorepo",
+  "repository": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo.git",
+  "homepage": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo",
   "main": "out/components/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -40,5 +43,11 @@
     "prettier": "3.0.3",
     "storybook": "7.5.2",
     "typescript": "5.2.2"
-  }
+  },
+  "bugs": "https://github.com/akky-xxxx/experiment-yarn-v3-monorepo/issues",
+  "keywords": [
+    "Next.js",
+    "monorepo",
+    "yarn"
+  ]
 }
