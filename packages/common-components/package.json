@@ -28,6 +28,7 @@
     "react": "18.2.0"
   },
   "devDependencies": {
+    "@experiment-yarn-v3-monorepo/common-types": "workspace:^",
     "@pandacss/dev": "0.17.5",
     "@storybook/addon-essentials": "7.5.2",
     "@storybook/addon-interactions": "7.5.2",

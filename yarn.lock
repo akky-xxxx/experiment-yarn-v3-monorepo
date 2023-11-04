@@ -2230,6 +2230,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@experiment-yarn-v3-monorepo/common-components@workspace:packages/common-components"
   dependencies:
+    "@experiment-yarn-v3-monorepo/common-types": "workspace:^"
     "@pandacss/dev": "npm:0.17.5"
     "@storybook/addon-essentials": "npm:7.5.2"
     "@storybook/addon-interactions": "npm:7.5.2"
@@ -2254,7 +2255,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types":
+"@experiment-yarn-v3-monorepo/common-types@workspace:^, @experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types":
   version: 0.0.0-use.local
   resolution: "@experiment-yarn-v3-monorepo/common-types@workspace:packages/common-types"
   dependencies:
