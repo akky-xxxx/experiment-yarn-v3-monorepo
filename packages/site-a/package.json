@@ -5,8 +5,8 @@
   "scripts": {
     "build": "next build",
     "build-storybook": "storybook build",
-    "check-all": "npm-run-all -s fix -p lint -c",
-    "check-code": "npm-run-all -p lint type-check -c",
+    "check-all": "npm-run-all -s fix -p check-code -c",
+    "check-code": "npm-run-all -p lint spell-check type-check -c",
     "dev": "next dev -p 3000",
     "fix": "run-p \"fix:*\" -c",
     "fix-ts-by-eslint": "eslint \"./{src,mock}/**/*.{ts,tsx}\" --fix --max-warnings 0 --cache",
@@ -22,6 +22,7 @@
     "lint:pack": "fixpack --dryRun",
     "lint:ts": "run-s lint-ts-by-prettier lint-ts-by-eslint",
     "prepare": "panda codegen",
+    "spell-check": "cspell \"./{.storybook,config,src}/**\"",
     "start": "next start -p 3000",
     "storybook": "storybook dev -p 3010",
     "type-check": "tsc"
