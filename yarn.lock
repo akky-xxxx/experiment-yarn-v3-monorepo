@@ -13933,6 +13933,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jotai@npm:2.5.0":
+  version: 2.5.0
+  resolution: "jotai@npm:2.5.0"
+  peerDependencies:
+    "@types/react": ">=17.0.0"
+    react: ">=17.0.0"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+  checksum: 8485043226c9e208c29cf5e636d50d655dc261a13e5aad505833ac3dcb60f832e35d5e8b9f76390a0bb3a5d07f1df5eea0b06b7e83c14084f0ec018c8323da60
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -18490,6 +18505,7 @@ __metadata:
     eslint-plugin-storybook: "npm:0.6.15"
     fixpack: "npm:4.0.0"
     jest: "npm:29.7.0"
+    jotai: "npm:2.5.0"
     markuplint: "npm:3.14.0"
     next: "npm:14.0.1"
     npm-run-all: "npm:4.1.5"
@@ -18521,6 +18537,7 @@ __metadata:
     eslint-plugin-storybook: "npm:0.6.15"
     fixpack: "npm:4.0.0"
     jest: "npm:29.7.0"
+    jotai: "npm:2.5.0"
     markuplint: "npm:3.14.0"
     next: "npm:14.0.1"
     npm-run-all: "npm:4.1.5"
