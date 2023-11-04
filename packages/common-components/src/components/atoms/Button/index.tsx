@@ -1,7 +1,7 @@
 import { css } from "@panda/css"
 
-import type { FcWithChildren } from "../../../types/FcWithChildren"
 import type { PropsWithoutClassName } from "../../../types/PropsWithoutClassName"
+import type { FcWithChildren } from "@experiment-yarn-v3-monorepo/common-types"
 import type { ButtonHTMLAttributes } from "react"
 
 const buttonStyle = css({
