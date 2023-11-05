@@ -3,6 +3,9 @@ import Image from "next/image"
 
 import { css } from "@panda/css"
 
+import { Search } from "../../organisms/Search"
+import { SearchResult } from "../../organisms/SearchResult"
+
 import type { FC } from "react"
 
 const paragraphStyle = css({
@@ -17,6 +20,11 @@ export const Home: FC = () => (
 
     <div>
       <Counter />
+    </div>
+
+    <div>
+      <Search />
+      <SearchResult />
     </div>
 
     <p className={paragraphStyle}>demo for panda css</p>
