@@ -1,5 +1,6 @@
 import { Button, Counter } from "@experiment-yarn-v3-monorepo/common-components"
 import Image from "next/image"
+import Link from "next/link"
 
 import { css } from "@panda/css"
 
@@ -25,6 +26,10 @@ export const View: FC = () => (
     <div>
       <Search />
       <SearchResult />
+    </div>
+
+    <div>
+      <Link href="/pet-store">pet store</Link>
     </div>
 
     <p className={paragraphStyle}>demo for panda css</p>
