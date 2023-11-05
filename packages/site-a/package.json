@@ -26,7 +26,7 @@
     "prepare": "panda codegen",
     "spell-check": "cspell \"./{.storybook,config,src}/**\"",
     "start": "next start -p 3000",
-    "storybook": "storybook dev -p 3010",
+    "storybook": "storybook dev -p 3010 -s ../public",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -53,5 +53,8 @@
     "Next.js",
     "monorepo",
     "yarn"
-  ]
+  ],
+  "msw": {
+    "workerDirectory": "h./public"
+  }
 }
