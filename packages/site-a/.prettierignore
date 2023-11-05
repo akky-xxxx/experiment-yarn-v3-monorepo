@@ -1,0 +1,6 @@
+.eslintcache
+.next
+coverage
+node_modules
+src/libs
+storybook-static

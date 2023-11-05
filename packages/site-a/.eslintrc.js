@@ -6,7 +6,7 @@ module.exports = {
     "../../config/eslint/strictDependencies",
   ],
 
-  ignorePatterns: ["**/.next/**", "**/styled-system/**"],
+  ignorePatterns: ["**/.next/**", "**/styled-system/**", "**/libs/**"],
   parserOptions: {
     project: ["./tsconfig.json"],
     tsconfigRootDir: __dirname,

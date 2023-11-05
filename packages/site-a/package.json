@@ -16,6 +16,8 @@
     "fix:config": "prettier \"./.storybook/**/*\" \"./*.{js,mjs,cjs}\" --write",
     "fix:pack": "fixpack",
     "fix:ts": "run-s fix-ts-by-prettier fix-ts-by-eslint",
+    "gen": "run-s",
+    "gen:api-types": "openapi-typescript https://petstore3.swagger.io/api/v3/openapi.json -o ./src/libs/types/petStore/index.d.ts",
     "lint": "run-p \"lint:*\" -c",
     "lint-ts-by-eslint": "eslint \"./{src,mock}/**/*.{ts,tsx}\" --max-warnings 0 --cache",
     "lint-ts-by-prettier": "prettier \"./{src,mock}/**/*.{ts,tsx}\" --check",

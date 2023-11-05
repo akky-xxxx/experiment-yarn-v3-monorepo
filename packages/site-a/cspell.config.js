@@ -9,4 +9,5 @@ module.exports = {
     },
   ],
   words: ["firstname", "lastname", "soledad", "lakin"], // サンプルコードのためここで除外
+  ignorePaths: ["**/libs/**"],
 }
