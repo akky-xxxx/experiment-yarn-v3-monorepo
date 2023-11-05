@@ -13,14 +13,14 @@ module.exports = {
   },
   overrides: [
     {
-      files: "index.stories.tsx",
+      files: "{index,View}.stories.tsx",
       rules: {
         "strict-check/forbidden-multiple-named-exports": Severity.OFF,
       },
     },
     {
       files: [
-        "index.(stories|test).{ts,tsx}",
+        "{index,View}.(stories|test).{ts,tsx}",
         "**/{layout|page}.tsx",
         "**/View.tsx",
       ],
