@@ -11,6 +11,7 @@ module.exports = {
           allowReferenceFrom: [
             "src/app",
             "src/components/templates/**/*.stories.tsx",
+            "src/components/templates/**/index.tsx",
           ],
           allowSameModule: false,
         },
