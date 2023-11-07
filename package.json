@@ -47,6 +47,7 @@
     "@storybook/react": "7.5.2",
     "@storybook/react-vite": "7.5.2",
     "@storybook/testing-library": "0.2.2",
+    "@stylistic/eslint-plugin": "1.0.0",
     "@swc-jotai/debug-label": "0.1.0",
     "@swc-jotai/react-refresh": "0.1.0",
     "@tsconfig/strictest": "2.0.2",
