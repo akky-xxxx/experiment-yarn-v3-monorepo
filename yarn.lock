@@ -2718,6 +2718,7 @@ __metadata:
   resolution: "@experiment-yarn-v3-monorepo/common-components@workspace:packages/common-components"
   dependencies:
     "@pandacss/dev": "npm:0.17.5"
+    "@types/react": "npm:18.2.34"
     cspell: "npm:7.3.8"
     eslint: "npm:8.53.0"
     fixpack: "npm:4.0.0"
