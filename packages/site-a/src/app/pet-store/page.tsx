@@ -6,7 +6,6 @@ import { SearchResult } from "../../components/organisms/SearchResult"
 
 import type { FC } from "react"
 
-
 const PetStore: FC = () => (
   <div>
     <SearchResult />
