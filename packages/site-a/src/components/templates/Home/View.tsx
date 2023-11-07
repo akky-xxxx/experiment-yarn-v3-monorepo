@@ -4,10 +4,22 @@ import Link from "next/link"
 
 import { css } from "@panda/css"
 
+import { News } from "./components/atoms/News"
 import { Search } from "../../organisms/Search"
 import { SearchResult } from "../../organisms/SearchResult"
 
 import type { FC } from "react"
+
+const news = [
+  {
+    content: "news 1",
+    id: "1",
+  },
+  {
+    content: "news 2",
+    id: "2",
+  },
+]
 
 const paragraphStyle = css({
   color: "red",
@@ -30,6 +42,7 @@ export const View: FC = () => (
 
     <div>
       <Link href="/pet-store">pet store</Link>
+      <News newsItems={news} />
     </div>
 
     <p className={paragraphStyle}>demo for panda css</p>
