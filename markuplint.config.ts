@@ -8,6 +8,7 @@ const config: Config = {
   specs: {
     ".[jt]sx?$": "@markuplint/react-spec",
   },
+  excludeFiles: ["**/*.stories.tsx"],
 }
 
 export default config
