@@ -25,7 +25,7 @@
     "lint:pack": "fixpack --dryRun",
     "lint:ts": "run-s lint-ts-by-prettier lint-ts-by-eslint",
     "prepare": "panda codegen",
-    "spell-check": "cspell \"./{.storybook,src}/**\" --config ./cspell.config.js",
+    "spell-check": "cspell \"./{.storybook,src}/**\" --config ./cspell.config.js --no-progress",
     "storybook": "storybook dev -p 2010",
     "type-check": "tsc"
   },

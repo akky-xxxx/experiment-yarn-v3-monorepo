@@ -26,7 +26,7 @@
     "lint:pack": "fixpack --dryRun",
     "lint:ts": "run-s lint-ts-by-prettier lint-ts-by-eslint",
     "prepare": "panda codegen",
-    "spell-check": "cspell \"./{.storybook,config,src}/**\"",
+    "spell-check": "cspell \"./{.storybook,config,src}/**\" --no-progress",
     "start": "next start -p 3000",
     "storybook": "storybook dev -p 3010 -s ../public",
     "type-check": "tsc"

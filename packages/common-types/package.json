@@ -23,7 +23,7 @@
     "lint:markup": "markuplint \"./src/**/*.ts\" -p",
     "lint:pack": "fixpack --dryRun",
     "lint:ts": "run-s lint-ts-by-prettier lint-ts-by-eslint",
-    "spell-check": "cspell \"./src/**\"",
+    "spell-check": "cspell \"./src/**\" --no-progress",
     "type-check": "tsc"
   },
   "devDependencies": {

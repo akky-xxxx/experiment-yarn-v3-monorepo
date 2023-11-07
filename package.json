@@ -23,7 +23,7 @@
     "lint:config": "prettier \"./config/**/*\" --check",
     "lint:pack": "fixpack --dryRun",
     "prepare": "yarn workspaces foreach -A -vpi run prepare",
-    "spell-check": "cspell \"./config/**\"",
+    "spell-check": "cspell \"./config/**\" --no-progress",
     "ws-build": "yarn workspaces foreach -A -vpi run build",
     "ws-check-all": "yarn workspaces foreach -A -vpi run check-all",
     "ws-check-code": "yarn workspaces foreach -A -vpi run check-code",
