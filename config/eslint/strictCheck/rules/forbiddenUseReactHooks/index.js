@@ -5,7 +5,7 @@ exports.forbiddenUseReactHooks = [
   {
     allowPatterns: [
       /\/components\/(?:molecules|organisms|templates)\/[^/]+\/index.tsx$/,
-      /\/modules\/use[A-Z][^/]+\/index.ts$/,
+      /\/modules\/use[A-Z][^/]+\/index(?:.test)?.ts$/,
     ],
   },
 ]
