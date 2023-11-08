@@ -1,3 +1,4 @@
+import { userEvent, within } from "@storybook/testing-library"
 import { rest } from "msw"
 
 import { Home } from "./index"
@@ -11,8 +12,7 @@ import type { ComponentProps } from "react"
 type Props = ComponentProps<typeof Home>
 
 // TODO: host を環境変数・定数管理する
-const PetStoreEndpoint =
-  "https://petstore3.swagger.io/api/v3/pet/findByStatus?status="
+const PetStoreEndpoint = "https://petstore3.swagger.io/api/v3/pet/findByStatus"
 
 const meta: Meta<Props> = {
   component: Home,
@@ -38,3 +38,11 @@ const meta: Meta<Props> = {
 export default meta
 
 export const Default: StoryObj<Props> = {}
+
+export const DisplaySearchResult: StoryObj<Props> = {
+  play: async (context) => {
+    const canvas = within(context.canvasElement)
+    await userEvent.click(canvas.getByLabelText("sold"), { delay: 100 })
+    await userEvent.click(canvas.getByText("Search"), { delay: 100 })
+  },
+}
