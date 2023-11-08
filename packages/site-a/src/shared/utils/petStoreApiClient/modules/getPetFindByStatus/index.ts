@@ -1,3 +1,5 @@
+import axios from "axios"
+
 import type { operations } from "../../../../../libs/types/petStore"
 import type { HttpStatus } from "../../../../HttpStatus"
 import type { GetDeleteFunction } from "../../types/GetDeleteFunction"
@@ -11,20 +13,17 @@ export const getPetFindByStatus: GetDeleteFunction<FindPetsByStatus> = async (
   const {
     parameters: { query },
   } = getArguments
-
-  return fetch(
-    `https://petstore3.swagger.io/api/v3/pet/findByStatus?status=${query?.status}`,
-  )
-    .then((res) => res.json())
-    .then(
-      (
-        result: FindPetsByStatus["responses"][Status]["content"]["application/json"],
-      ) => ({
-        data: result,
-        error: null,
-        isSuccess: true,
-      }),
+  const parameters = { status: query?.status }
+  return axios
+    .get<FindPetsByStatus["responses"][Status]["content"]["application/json"]>(
+      "https://petstore3.swagger.io/api/v3/pet/findByStatus",
+      { params: parameters },
     )
+    .then((response) => ({
+      data: response.data,
+      error: null,
+      isSuccess: true,
+    }))
     .catch((error: unknown) => ({
       error,
       isSuccess: false,
