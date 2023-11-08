@@ -1,11 +1,14 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "src/**/*",
+  ],
   "exclude": ["node_modules", "src/**/*.stories.tsx"],
   "compilerOptions": {
     "jsx": "react-jsx",
     "noEmit": false,
-    "outDir": "./out",
-    "rootDir": "./src"
+    "outDir": "./out/esm",
+    "rootDir": "./src",
+    "target": "esnext"
   }
 }

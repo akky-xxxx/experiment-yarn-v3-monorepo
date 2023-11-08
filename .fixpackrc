@@ -10,6 +10,7 @@
     "engines",
     "packageManager",
     "main",
+    "module",
     "exports",
     "scripts",
     "dependencies",
