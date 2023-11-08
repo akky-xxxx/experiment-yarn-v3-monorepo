@@ -33,6 +33,7 @@
     "ws-spell-check": "yarn workspaces foreach -A -vpi run spell-check",
     "ws-start": "yarn workspaces foreach -A -vpi run start",
     "ws-storybook": "yarn workspaces foreach -A -vpi run storybook",
+    "ws-test": "yarn workspaces foreach -A -vpi run test",
     "ws-type-check": "yarn workspaces foreach -A -vpi run type-check"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@
   "scripts": {
     "build": "next build",
     "build-storybook": "storybook build",
-    "check-all": "npm-run-all -s fix -p check-code -c",
+    "check-all": "npm-run-all -s fix -p check-code -s test -c",
     "check-code": "npm-run-all -p lint spell-check type-check -c",
     "dev": "next dev -p 3000",
     "fix": "run-p \"fix:*\" -c",
@@ -29,6 +29,7 @@
     "spell-check": "cspell \"./{.storybook,config,src}/**\" --no-progress",
     "start": "next start -p 3000",
     "storybook": "storybook dev -p 3010 -s ../public",
+    "test": "jest --coverage",
     "type-check": "tsc"
   },
   "dependencies": {
