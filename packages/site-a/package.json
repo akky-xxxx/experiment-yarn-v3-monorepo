@@ -7,6 +7,9 @@
   "scripts": {
     "build": "next build",
     "build-storybook": "storybook build",
+    "capture": "run-s capture:run-storybook capture:run-capture",
+    "capture:run-capture": "storycap http://localhost:3015 -C \"puppeteer\" --disableCssAnimation --serverTimeout 120000 --captureTimeout 30000",
+    "capture:run-storybook": "storybook dev --no-open -p 3015 -s ../public --quiet --no-version-updates",
     "check-all": "npm-run-all -s fix -p check-code -s test -c",
     "check-code": "npm-run-all -p lint spell-check type-check -c",
     "dev": "next dev -p 3000",
@@ -30,6 +33,7 @@
     "start": "next start -p 3000",
     "storybook": "storybook dev -p 3010 -s ../public",
     "test": "jest --coverage",
+    "test:vrt": "reg-suit init --use-yarn",
     "type-check": "tsc"
   },
   "dependencies": {

@@ -1,6 +1,9 @@
 /** @type { import('@storybook/react').Preview } */
-import "@experiment-yarn-v3-monorepo/common-components/src/styles/main/index.css"
+// import "@experiment-yarn-v3-monorepo/common-components/src/styles/main/index.css"
 import { initialize, mswLoader } from "msw-storybook-addon"
+import { withScreenshot } from "storycap"
+
+export const decorators = [withScreenshot]
 
 initialize()
 
